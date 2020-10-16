@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background:#262626;
+    font-family: sans-serif;
+}
+.principal{
+    width: 1300px;
+    height: 1000px;
+    margin: 40px auto;
+    background: #00ff62b6;
+    padding: 10px;
+    box-shadow: 0px 0px 100px rgba(17, 177, 62, 0.664);
+    border-radius: 10px 10px 10px 10px;
+}
+.principal:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.coluna{
+    float: left;
+    padding: 10px;
+    width: 629px;
+    height: 970px;
+    background: #3b423d56;
+    margin-right: 0px;
+    border-radius: 10px 10px 10px 10px;
+   
+}
+/*ul{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}*/
+ul li{
+    list-style: none;
+    margin: 120 100px;
+}
+ul li a .fa{
+    font-size: 40px;
+    color:rgb(83, 85, 85);
+    line-height: 80px;
+    transition: 0.5s;
+    padding-right: 14px;
+}
+ul li a span{
+    padding:0;
+    margin:0 ;
+    top:30px;
+    color: rgb(83, 85, 85);
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+ul li a{
+    text-decoration: none;
+    display: absolute;
+    display: block;
+    width:350px;
+    height: 80px;
+    background: #03fd41ab;
+    text-align: left;
+    padding-left: 50px;
+    transform: rotate(0deg) skewX(22deg) translate(0,0);
+    transition: 0.5s;
+    box-shadow: -20px 20px 50px rgb(0, 255, 34);
+}
+ul li a:before{
+    content: "";
+    position:absolute;
+    top:10px;
+    left:-20px;
+    height: 100%;
+    width: 20px;
+    background: #064419;
+    transform: 0.5s;
+    transform: rotate(0deg) skewY(-45deg);
+}
+ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left:-10px;
+    height:20px;
+    width: 100%;
+    background: #04611b;
+    transform: 0.5s;
+    transform: rotate(0deg) skewX(-45deg);
+    
+}
+ul li a:hover{
+    transform: rotate(0deg) skew(10deg) translate(80px,-35px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+}
+ul li a:hover .fa{
+    color: #fff;
+}
+ul li a:hover span{
+    color: #fff;
+}
+ul li:hover a{
+    background: #575757d2;
+    box-shadow: -50px 50px 20px rgba(0, 0, 0, 0.603);
+}
+ul li:hover a:before{
+    background: #000000cc;
+}
+ul li:hover a:after{
+    background: rgba(36, 36, 36, 0.856);
+}
+ul li a:active{
+    background: #ec2828d2;
+    transform: 0.2s;
+    transform: rotate(0deg) skewX(18deg) translate(40px,-20px);
+    
+}
+ul li:active a:before{
+    background: #4d1818cc;
+    
+}
+ul li:active a:after{
+    background: rgba(117, 22, 22, 0.856);
+    
+}

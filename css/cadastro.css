@@ -1,0 +1,90 @@
+
+#exampleInputEmail1{
+      
+    border: none;
+
+  text-align: center;
+}
+#exampleInputPassword1{
+      
+    border: none;
+
+  text-align: center;
+}
+#exampleInputname{
+   
+    border: none;
+
+  text-align: center;
+}
+.a{
+    margin-bottom: 20px;
+}
+h{
+    
+    font-family: Arial;
+    color: whitesmoke;
+    font-size: 35px;
+    
+    
+}
+form{
+    background-color: rgba(0, 0, 0, 0.67);
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    width: 800px;
+    margin-left: 28%;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 26%;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+input{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 576px) {
+    .grupo{
+        margin-top: 105%; 
+    }
+    form{
+         width: auto;
+        margin: 0 auto;
+    }
+    
+}
+
+
+@media only screen and (device-width: 768px) {
+    .grupo{
+        margin-top: 65%;
+    }
+    h{
+        padding-left: 20px;
+        display: block;
+        background-color: black;
+        border-radius: 20px 20px 20px 20px;
+        color: #0feda0;
+        font-family: Arial;
+        color: #0feda0;
+        font-size: 45px;
+        font-weight: 500;
+        height: 65px; 
+    
+}
+    .navigation-button{
+        top: 50px;
+        right: 60px;
+    }
+    form{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+

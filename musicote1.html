@@ -1,0 +1,140 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magali Dias Musicoterapia</title>
+    <link href="musicote1.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div id="logo"><img src="images/01.jpeg"></div>
+        <br><br>
+
+        <div class="navigation-wrapper">
+            <div class="navigation-button">
+                <br><br>
+                <i class="fa fa-bars"></i>
+            </div>
+
+            <div class="navigation-menu">
+                <ul>
+
+                    <li><a href="musicote.html">HOME</a></li>
+                    <li><a href="but.html">SERVICES</a></li>
+                    <li><a href="trabalhoPHPpesoideal.html">CONTACT</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <section class="hero">
+            <h1>MUSICOTERAPIA<br><span>Magali Dias</span></h1>
+
+
+            <p>De forma simples pode-se definir a musicoterapia como uma “arte e uma ciência onde o terapeuta ajuda o
+                cliente a promover a saúde (emocional, física, mental, social, cognitiva e espiritual) utilizando
+                experiências musicais num processo terapêutico para relaxar ou se expressar.” (Bruscia, 2000, p. 22)</p>
+
+            <br>
+            <h2>INDICAÇÃO</h2>
+
+
+            <p>Indicada para os indivíduos com qualquer tipo de deficiência, motora, cognitiva e sensorial, ou
+                indivíduos que necessitem de um entendimento mais aprofundado de si mesmo através da Musicoterapia
+                Individual; visando sempre o bem estar, qualidade de vida e autonomia do paciente. </p>
+            <br>
+            <h2>OBJETIVOS</h2>
+
+
+            <p>Na Musicoterapia o “fazer musical”, a experiência musical, tem objetivos não musicais, estéticos e de
+                forma nenhuma é didático para aprendizagem musical instrumental. Os objetivos são estabelecidos e
+                adaptados seguindo as prioridades terapêuticas individuais e da equipe multidisciplinar, estimulando o
+                paciente para que amplie, mantenha ou restaure funções psicossociais, sensoriais, cognitivas e motoras.
+            </p>
+            <br>
+            <h2>OBJETIVO GERAL</h2>
+
+
+            <p>Avaliar, tratar e acompanhar os pacientes, visando promover o desenvolvimento funcional e a independência
+                nas atividades cotidianas. Buscando melhorar a qualidade de vida da pessoa/criança com deficiência e de
+                sua família, desenvolvendo suas capacidades físicas, sensoriais, emocionais e sociais através de
+                experiências corporais- sonoras-musicais. </p>
+            <br>
+            <h2>OBJETIVOS ESPECÍFICOS</h2>
+
+            <p>
+                • Estimular e desenvolver a comunicação (verbal e gestual);<br>
+                • Estimular e desenvolver a expressão motora, corporal, verbal e de sentimentos e pensamentos;<br>
+                • Favorecer, estimular e desenvolver a linguagem oral;<br>
+                • Estimular e desenvolver o brincar e a capacidade lúdica;<br>
+                • Estimular e desenvolver a conscientização do corpo no espaço e imagem corporal;<br>
+                • Estimular e desenvolver a sensorialidade; as habilidades auditivas e visomotoras;<br>
+                • Estimular e desenvolver as habilidades cognitivas (atenção, memória, planejamento);<br>
+                • Estimular e desenvolver a musicalidade;<br>
+                • Estimular e desenvolver a criatividade;<br>
+                • Estimular e desenvolver a auto-estima;<br>
+                • Estimular e desenvolver o senso-rítmico e melódico;<br>
+                • Estimular e desenvolver a socialização e habilidades interativas e de grupo;<br>
+                • Estimular para as atividades funcionais da vida diária;<br>
+                • Complementar e apoiar o tratamento do paciente/criança traçando objetivos comuns com as demais
+                terapias, entre outros. <br>
+            </p>
+
+
+
+
+            <div class="button">
+
+                <a href="https://www.facebook.com/magali.mgldias.dias" class="btn1">Facebook</a>
+
+                <a href="https://www.instagram.com/magalidias9970/?hl=pt-br" class="btn2">Instagram</a>
+
+            </div>
+        </section>
+        <br><br><br>
+        <img class="foto" src="images/violao.jpeg">
+
+
+
+    </div>
+    <script>
+        var navButton = document.querySelector('.navigation-button');
+        var navMenu = document.querySelector('.navigation-menu');
+        var win = window;
+
+        function openMenu(event) {
+
+            navButton.classList.toggle('active');
+            navMenu.classList.toggle('active');
+
+            event.preventDefault();
+            event.stopImmediatePropagation();
+        }
+
+        function closeMenu(event) {
+            if (navButton.classList.contains('active')) {
+                navButton.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        }
+        navButton.addEventListener('click', openMenu, false);
+
+        win.addEventListener('click', closeMenu, false);
+
+    </script>
+
+
+
+
+</body>
+
+</html>

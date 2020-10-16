@@ -1,0 +1,105 @@
+/*__________________banner and head layout__________________________________*/
+.containerhead{
+
+    width: 1500px;/*2400px*/
+    min-height: 300px;
+    background: #262626 no-repeat;
+    background-size: cover;
+    margin: 8px auto 0;
+    margin-left: 23.5%;
+    font-family: Zapf-Chancery, cursive;
+    color: #262626;
+   
+}
+.redon{
+    border-radius: 150px;
+    /*10px 20px 10px 20px*/
+}
+.headimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/*__________________images layout__________________________________*/
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
+}
+.container{
+    width: 858px; /*1710px*/
+    min-height: 287px;/*287px*/
+    background: #262626;
+    margin: 8px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   
+    
+}
+.container .box{
+    position: relative;
+    width: 265px;
+    height: 265px;
+    background: #262626;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+    
+    
+}
+.container .box .imgBox{
+    position: relative;
+    overflow: hidden;
+    border: 3px solid  rgb(240, 190, 134);
+    border-radius: 50%;
+}
+.container .box .imgBox img{
+    max-width: 100%;
+    transition: transform 2.5s;
+    
+}
+.container .box:hover .imgBox img{
+    transform: scale(1.5);
+    
+}
+.container .box .details{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    background-color: rgba(14, 13, 13, 0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+    border-radius: 50%;
+    /*10px 50px 10px 50px*/
+}
+.container .box:hover .details{
+    transform: scaleY(1);
+}
+.container .box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details .content h2{
+    margin: 10%;
+    padding:15%;
+    font-size: 20px;
+    color: rgb(199, 197, 192);
+    font-family: Zapf-Chancery, cursive;
+  
+}
+.redon2{
+    border-radius:50%;
+    /*10px 50px 10px 50px8?
+}
+

@@ -1,0 +1,117 @@
+body{
+    background: url('images/fundocalculadora.jpg') no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    font-size: 60px;
+    opacity: .5;
+}
+.container{
+    text-align: center;
+    
+    
+    
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: #fff;
+}
+input{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+}
+.inputigual{
+    font-size: 80px;
+    width: 170px;
+    height: 170px;
+    color: rgba(0, 195, 255, 0.973);
+    background: rgba(76, 91, 100, 0.61);
+    border: none;
+}
+.inputigual:hover{
+    color: rgba(65, 91, 100, 0.973);
+    background: rgba(4, 71, 112, 0.61);
+    box-shadow: 10px 10px 40px rgb(1, 183, 255);
+}
+.inputigual:active{
+    color: rgba(46, 52, 54, 0.973);
+    background: rgba(2, 158, 255, 0.61);
+    box-shadow: 10px 10px 40px rgb(1, 183, 255);
+}
+select{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+}
+.inputn1{
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    background: rgba(9, 126, 204, 0.61);
+    border: none;
+}
+.inputn1:hover{
+    font-size: 80px;
+    color: rgba(0, 195, 255, 0.973);
+    background: rgba(58, 74, 87, 0.61);
+    box-shadow: 10px 10px 40px rgb(1, 183, 255);
+}
+.inputn2{
+    width: 300px;
+    height: 300px;
+    font-size: 80px;
+    text-align: center;
+    color: rgba(0, 195, 255, 0.973);
+    background: rgba(76, 91, 100, 0.61);
+    border: none;
+}
+.inputn2:hover{
+    font-size: 80px;
+    color: #fff;
+    background: rgba(184, 213, 236, 0.61);
+    box-shadow: 10px 10px 40px rgb(1, 183, 255);
+}
+.inputnres{
+    font-size: 80px;
+    text-align: center;
+    color: rgba(0, 195, 255, 0.973);
+    background: rgba(26, 87, 128, 0.685);
+    border: none;
+}
+.inputnres:hover{
+    font-size: 80px;
+    color: rgba(218, 228, 231, 0.973);
+    background: rgba(191, 198, 204, 0.685);
+    box-shadow: 10px 10px 40px rgb(1, 183, 255);
+}
+input::placeholder{
+    font-size: 20px;
+    color: azure;
+}
+select{
+    text-align: center;
+    font-size: 60px;
+    color: rgba(0, 195, 255, 0.651);
+    background: rgba(76, 91, 100, 0.61);
+}
+select:hover{
+    color: rgba(218, 228, 231, 0.973);
+    background: rgba(2, 142, 248, 0.61);
+    box-shadow: 10px 10px 40px rgb(1, 183, 255);
+}
+select:active{
+    color: rgba(8, 124, 160, 0.973);
+    background: rgba(24, 28, 31, 0.61);
+    box-shadow: 10px 10px 40px rgb(1, 183, 255);
+}
+p{
+    font-size: 50px;
+    opacity: .5;
+}
+
